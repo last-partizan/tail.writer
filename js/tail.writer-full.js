@@ -36,7 +36,7 @@
             Element.implement({ tailwriter: function(o){ return new tail.writer(this, o); } });
         }
     }
-}(this, function(root){
+}(window, function(root){
     "use strict";
     var w = root, d = root.document, tail = {};
 
